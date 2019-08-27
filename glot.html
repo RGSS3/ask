@@ -1,1 +1,22 @@
 
+<!doctype html>
+<html>
+  <head><title></title>
+  <style>
+    body {
+      text-align: center;
+    }
+  </style>
+  </head>
+  
+  <body>
+    <H1>1. 把你的代码粘贴到下面的框里面</H1>
+    <iframe border='no' scrolling='no' src='https://glot.io' width='800' height='800' id='ifr'></iframe>
+    <H1>2. 点击Save, 里面点击Save Public</H1>
+    <H1>3. 复制下面这个地址发群里</H1>
+    <H1 id='url'></H1>
+    <script>
+      setInterval(_ => url.innerText = ifr.src, 1000)
+    </script>
+    </body>
+ </html>
